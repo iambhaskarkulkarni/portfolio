@@ -42,7 +42,7 @@ ul{
     list-style: none;
 }
 
-h1 {font-size: 56px;}
+h1 {font-size: 46px;}
 h2 {font-size: 36px;}
 h3 {font-size: 28px;}
 h4 {font-size: 24px;}
@@ -157,6 +157,9 @@ h6 {font-size: 16px;}
     width: 200px;
     object-fit: cover;
     border: 2px solid var(--borderColor);
+    -webkit-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 3px -1px rgba(0,0,0,0.75);
 }
 
 .theme-dot{
